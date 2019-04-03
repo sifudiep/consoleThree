@@ -68,6 +68,14 @@ namespace UppgiftTre
                         break;
                 }
                 
+                for (int i = 0; i < WallList.Count; i++)
+                {
+                    if (WallList[i].X == possibleX && WallList[i].Y == possibleY)
+                    {
+                        return false;
+                    }
+                }
+                
                 for (int i = 0; i < ScoreList.Count; i++)
                 {
                     if (ScoreList[i].X == possibleX && ScoreList[i].Y == possibleY)
@@ -76,14 +84,6 @@ namespace UppgiftTre
                         UpdateScoreText();
                         ScoreList.RemoveAt(i);
                         return true;
-                    }
-                }
-
-                for (int i = 0; i < WallList.Count; i++)
-                {
-                    if (WallList[i].X == possibleX && WallList[i].Y == possibleY)
-                    {
-                        return false;
                     }
                 }
 
@@ -101,12 +101,27 @@ namespace UppgiftTre
 
             public void CheckScoreSpawn()
             {
-                if (ScoreSpawner.ElapsedMilliseconds > 2000)
+                if (ScoreSpawner.ElapsedMilliseconds > DevHelper.ScoreSpawnTime)
                 {
-                    var score = new ScoreObject(rnd.Next(0, DevHelper.XLimit), rnd.Next(1, DevHelper.YLimit));
-                    ScoreList.Add(score);
-                    score.Draw();
-                    ScoreSpawner.Restart();
+                    var rndX = rnd.Next(0, DevHelper.XLimit);
+                    var rndY = rnd.Next(1, DevHelper.YLimit);
+                    bool spaceOccupied = false;
+                    var score = new ScoreObject(rndX, rndY);
+                    for (int i = 0; i < WallList.Count; i++)
+                    {
+                        if (WallList[i].X == rndX && WallList[i].Y == rndY)
+                        {
+                            spaceOccupied = true;
+                        }
+                    }
+                    
+                    if (spaceOccupied == false)
+                    {
+                        ScoreList.Add(score);
+                        score.Draw();
+                        ScoreSpawner.Restart();
+                    }
+                    
                 }
             }
       

@@ -11,6 +11,7 @@ namespace UppgiftTre
             public const int XLimit = 50;
             public const int YLimit = 10;
             public const int AddScore = 100;
+            public const int ScoreSpawnTime = 1000;
         }
     }
 }
