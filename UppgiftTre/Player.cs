@@ -14,7 +14,7 @@ namespace UppgiftTre
                 switch (direction)
                 {
                     case DevHelper.Up:
-                        if (Y > 0)
+                        if (Y > 1)
                         {
                             EraseHero();
                             Y--;        

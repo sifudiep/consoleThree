@@ -7,8 +7,9 @@ namespace UppgiftTre
         public void MapSettings()
         {
             Console.CursorVisible = false;
-            HorizontalWalls(0,Program.DevHelper.XLimit, Program.DevHelper.YLimit+1);
-            VerticalWalls(0, Program.DevHelper.YLimit, Program.DevHelper.XLimit+1);
+            HorizontalWalls(0,Program.DevHelper.XLimit+1, Program.DevHelper.YLimit+1);
+            VerticalWalls(1, Program.DevHelper.YLimit+2, Program.DevHelper.XLimit+1);
+            HorizontalWalls(0, Program.DevHelper.XLimit/2, Program.DevHelper.YLimit/2);
         }
     
         public void HorizontalWalls(int from, int to, int y)

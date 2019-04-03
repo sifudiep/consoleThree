@@ -17,7 +17,7 @@ namespace UppgiftTre
         {
             Console.SetCursorPosition(X,Y);
             Console.BackgroundColor = ConsoleColor.DarkGray;
-            Console.Write("W");
+            Console.Write("#");
         }
     }
 }

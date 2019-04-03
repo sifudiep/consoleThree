@@ -1,0 +1,6 @@
+C:\Users\Mikael Diep\RiderProjects\UppgiftTre\UppgiftTre\obj\Debug\UppgiftTre.csprojAssemblyReference.cache
+C:\Users\Mikael Diep\RiderProjects\UppgiftTre\UppgiftTre\obj\Debug\UppgiftTre.csproj.CoreCompileInputs.cache
+C:\Users\Mikael Diep\RiderProjects\UppgiftTre\UppgiftTre\bin\Debug\UppgiftTre.exe
+C:\Users\Mikael Diep\RiderProjects\UppgiftTre\UppgiftTre\bin\Debug\UppgiftTre.pdb
+C:\Users\Mikael Diep\RiderProjects\UppgiftTre\UppgiftTre\obj\Debug\UppgiftTre.exe
+C:\Users\Mikael Diep\RiderProjects\UppgiftTre\UppgiftTre\obj\Debug\UppgiftTre.pdb

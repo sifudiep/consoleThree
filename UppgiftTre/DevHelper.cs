@@ -10,6 +10,7 @@ namespace UppgiftTre
             public const string Right = "RIGHT";
             public const int XLimit = 50;
             public const int YLimit = 10;
+            public const int AddScore = 100;
         }
     }
 }
