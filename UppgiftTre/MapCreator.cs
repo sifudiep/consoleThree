@@ -8,6 +8,7 @@ namespace UppgiftTre
         {
             Console.CursorVisible = false;
             HorizontalWalls(0, Program.DevHelper.XLimit+1, 1);
+            VerticalWalls(1, Program.DevHelper.YLimit+1, 0);
             HorizontalWalls(0,Program.DevHelper.XLimit+1, Program.DevHelper.YLimit+1);
             VerticalWalls(1, Program.DevHelper.YLimit+2, Program.DevHelper.XLimit+1);
             HorizontalWalls(0, Program.DevHelper.XLimit/2, Program.DevHelper.YLimit/2);
