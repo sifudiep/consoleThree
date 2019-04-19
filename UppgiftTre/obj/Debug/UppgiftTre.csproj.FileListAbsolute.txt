@@ -4,3 +4,9 @@ C:\Users\Mikael Diep\RiderProjects\UppgiftTre\UppgiftTre\bin\Debug\UppgiftTre.ex
 C:\Users\Mikael Diep\RiderProjects\UppgiftTre\UppgiftTre\bin\Debug\UppgiftTre.pdb
 C:\Users\Mikael Diep\RiderProjects\UppgiftTre\UppgiftTre\obj\Debug\UppgiftTre.exe
 C:\Users\Mikael Diep\RiderProjects\UppgiftTre\UppgiftTre\obj\Debug\UppgiftTre.pdb
+C:\Users\Mike\Desktop\ConsoleThree\UppgiftTre\bin\Debug\UppgiftTre.exe
+C:\Users\Mike\Desktop\ConsoleThree\UppgiftTre\bin\Debug\UppgiftTre.pdb
+C:\Users\Mike\Desktop\ConsoleThree\UppgiftTre\obj\Debug\UppgiftTre.csprojAssemblyReference.cache
+C:\Users\Mike\Desktop\ConsoleThree\UppgiftTre\obj\Debug\UppgiftTre.csproj.CoreCompileInputs.cache
+C:\Users\Mike\Desktop\ConsoleThree\UppgiftTre\obj\Debug\UppgiftTre.exe
+C:\Users\Mike\Desktop\ConsoleThree\UppgiftTre\obj\Debug\UppgiftTre.pdb

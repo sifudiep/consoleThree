@@ -1,25 +1,22 @@
 ﻿using System.Diagnostics;
+using System.Linq.Expressions;
 using System.Threading;
 
 namespace UppgiftTre
 {
-  // Fixa så att coins inte spawnar på walls genom att loopa genom wallList
-  // Lägg till timer
-  // Lägg till Scoreboard med mongoDB 
-  // Lägg till Jump Mechanic ?? "Hoppa" X steg
   internal partial class Program
   {
     public static void Main(string[] args)
     {
       var gc = new GameContainer();
       var mapCreator = new MapCreator();
+      // Startar map settings vilket skapar väggar.
       mapCreator.MapSettings();
-      gc.ScoreSpawner.Start();
-
+      
+      // Loopar HandleInput för att konstant kolla om spelaren klickat på knappar
       while (true)
       {
         gc.HandleInput();
-        gc.CheckScoreSpawn();
       }
     }
   }
